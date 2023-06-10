@@ -1,0 +1,38 @@
+{
+    "name": "excel_api",
+    "version": "1.0.0",
+    "description": "Excel backend server",
+    "main": "index.js",
+    "scripts": {
+        "serve": "node src/index.js",
+        "dev": "nodemon src/index.js --watch src",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RogenBarrow/excel-back-end.git"
+    },
+    "keywords": [
+        "express"
+    ],
+    "author": "Rogen Barrow",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/RogenBarrow/excel-back-end/issues"
+    },
+    "homepage": "https://github.com/RogenBarrow/excel-back-end#readme",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "dotenv": "^16.1.4",
+        "express": "^4.18.2",
+        "nodemon": "^2.0.22"
+    },
+    "devDependencies": {
+        "eslint": "^8.42.0",
+        "eslint-config-standard": "^17.1.0",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-n": "^16.0.0",
+        "eslint-plugin-promise": "^6.1.1",
+        "prettier": "2.8.8"
+    }
+}
