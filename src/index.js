@@ -9,8 +9,8 @@ const { port, ExcelAPI } = require("./config/configuration");
 const router = require("./router")
 
 app.use(router);
-app.use(express.json());
-app.use(bodyParser.json("type: */json"));
+app.use(bodyParser.json());
+//app.use(bodyParser.text({ type: "application/json" }));
 
 app.listen(port, () => {
     console.log(`
