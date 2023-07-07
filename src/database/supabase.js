@@ -15,4 +15,7 @@ const options = {
     headers: { 'x-my-custom-header': 'my-app-name' },
   },
 }
+
 const supabase = createClient( supabaseUrl, supabaseKey, options)
+
+module.exports = supabase;
